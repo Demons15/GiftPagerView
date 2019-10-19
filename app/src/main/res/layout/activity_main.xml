@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+<!--    <cn.mtjsoft.www.gridpager.GridPager-->
+<!--        android:id="@+id/gridpager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:verticalSpacing="10dp"-->
+<!--        app:img_width="50dp"-->
+<!--        app:img_height="50dp"-->
+<!--        app:text_color="@color/colorPrimary"-->
+<!--        app:text_size="14sp"-->
+<!--        app:imgtext_margin="5dp"-->
+<!--        app:row_count="2"-->
+<!--        app:column_count="4"-->
+<!--        app:point_is_show="true"-->
+<!--        app:point_width="4dp"-->
+<!--        app:point_height="4dp"-->
+<!--        app:point_is_circle="true"-->
+<!--        app:point_margin="2dp"-->
+<!--        app:point_normal_color="@color/colorPrimary"-->
+<!--        app:point_select_color="@color/colorAccent"-->
+<!--        app:point_margin_page="10dp"-->
+<!--        app:point_margin_bottom="10dp"-->
+<!--        app:background_color="@color/colorBg">-->
+<!--    </cn.mtjsoft.www.gridpager.GridPager>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#FFFFFFFF">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:background="#88656565"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/ll_dot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+</LinearLayout>
